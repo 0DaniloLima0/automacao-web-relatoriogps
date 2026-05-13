@@ -1,0 +1,29 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+env/
+.env
+
+# --- Playwright ---
+# Ignora navegadores baixados localmente (opcional, se estiverem na pasta do projeto)
+.auth/
+browser-downloads/
+
+# --- Logs e Arquivos Temporários ---
+*.log
+geckodriver.log
+ghostdriver.log
+chromedriver.exe
+
+# --- Excel e Dados ---
+# Ignora arquivos temporários do Excel (aqueles que começam com ~$)
+~$*.xlsx
+# Se você quiser que o arquivo baixado não suba para o Git, descomente a linha abaixo:
+# dados_extraidos.xlsx
+
+# --- IDEs ---
+.vscode/
+.idea/
+.DS_Store
